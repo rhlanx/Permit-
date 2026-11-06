@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --color-navy: #1e3a5f;
+  --color-navy-light: #2a4f7f;
+  --color-navy-dark: #152a45;
+  --color-gold: #c5a55a;
+  --color-gold-light: #d4ba7a;
+  --color-gold-dark: #a88a3a;
+  --color-bg: #f8f9fa;
+  --color-bg-white: #ffffff;
+  --color-text: #1a1a2e;
+  --color-text-muted: #6b7280;
+  --color-border: #e5e7eb;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
